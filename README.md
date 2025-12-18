@@ -373,32 +373,6 @@ MAE  (Rp): ~736
 MAPE (%): ~4.17%
 ```
 
-### Visualisasi
-
-Model menghasilkan visualisasi perbandingan harga aktual vs prediksi:
-
-```
-Harga (Rp)
-    │
- 17K│      ╭──────────╮
-    │     ╱            ╲
- 16K│    ╱              ╲
-    │   ╱                ╲
- 15K│──╱                  ╲──
-    │ Actual (─) vs Predicted (--)
-    └────────────────────────────── Waktu
-```
-
-## 📚 Referensi
-
-1. **Paper Referensi**: Implementasi model ini terinspirasi dari metodologi dalam paper `s41598-025-97724-7.pdf` yang disertakan dalam repository.
-
-2. **PyTorch Geometric Documentation**: https://pytorch-geometric.readthedocs.io/
-
-3. **Graph Neural Networks for Time Series**: 
-   - T-GCN: A Temporal Graph Convolutional Network for Traffic Prediction
-   - Spatio-Temporal Graph Convolutional Networks
-
 ## 📝 Lisensi
 
 Proyek ini dibuat untuk tujuan penelitian dan edukasi. Silakan hubungi pemilik repository untuk penggunaan komersial.
@@ -406,9 +380,3 @@ Proyek ini dibuat untuk tujuan penelitian dan edukasi. Silakan hubungi pemilik r
 ## 👨‍💻 Kontributor
 
 - **abijaksana96** - Pengembang Utama
-
----
-
-<p align="center">
-  Dibuat dengan ❤️ untuk Indonesia
-</p>
